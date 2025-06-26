@@ -10,9 +10,9 @@ I worked on this project by following the Codebasics Excel Course, Link to the c
 
 you can find the full report file here :
     
-- 📄 [View Report (PDF)]([https://github.com/Naveen-S6/Business_Insights_360/blob/main/Report/360.pbix](https://github.com/SouravBose2000/Excel-Sales-Analytics/tree/main/Project/PDF))
+- 📄 [View Report (PDF)](https://github.com/SouravBose2000/Excel-Sales-Analytics/tree/main/Project/PDF)
 
-- 📊 [View Report (Excel)](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Report/360.pbix)
+- 📊 [View Report (Excel)](https://github.com/SouravBose2000/Excel-Sales-Analytics/tree/main/Project/Excel)
 
 *******************
 ### **Technical & Soft Skills:**
@@ -165,9 +165,9 @@ Before jumping into building the final reports, it’s important to follow a str
 
 - **Project objective:**
 
-   **1.** Create a _[customer performance report](https://github.com/KirandeepMarala/Excel-Sales_Analysis/blob/main/Customer%20Performance%20Report.pdf)_ 
+   **1.** Create a _[customer performance report](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/Customer%20Performance%20Report.pdf)_ 
 
-   **2.** Conduct a comprehensive comparison between _[market performance and sales targets](https://github.com/KirandeepMarala/Excel-Sales_Analysis/blob/main/Customer%20Performance%20Report.pdf)_
+   **2.** Conduct a comprehensive comparison between _[market performance and sales targets](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/Market%20Performance%20vs%20Target%20Report.pdf)_
 
 - **Purpose of sales analytics:** Empower businesses to monitor and evaluate their sales activities and performance.
 
@@ -180,9 +180,9 @@ Before jumping into building the final reports, it’s important to follow a str
 
 - **Project objective:** 
 
-    **1.** Create Profit and Loss (P&L) reports by _[Fiscal Year](https://github.com/KirandeepMarala/Excel-Sales_Analysis/blob/main/P%26L%20Statement%20by%20Fiscal%20Year.pdf)_ & _[Months](https://github.com/KirandeepMarala/Excel-Sales_Analysis/blob/main/P%26L%20Statement%20by%20Months.pdf)_ 
+    **1.** Create Profit and Loss (P&L) reports by _[Fiscal Year](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/P%26L%20Statement%20by%20Fiscal%20Year.pdf)_ & _[Months](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/P%26L%20Statement%20by%20Months.pdf)_ 
 
-   **2.** Create Profit and Loss (P&L) reports by _[Markets](https://github.com/KirandeepMarala/Excel-Sales_Analysis/blob/main/P%26L%20Statement%20by%20Markets.pdf)_
+   **2.** Create Profit and Loss (P&L) reports by _[Markets](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/P%26L%20Statement%20by%20Markets.pdf)_
 
 - **Purpose of sales analytics:** Evaluation of financial performance, support decision-making, and facilitate communication with stakeholders.
 
@@ -204,7 +204,7 @@ The Atliq business team provided the analytics team with requirement files conta
         - Poor data modeling affects the over all performance of the report.
         - In this project, we have followed Snowfall data modeling method.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Data_Model.png" class="center">
 
 *******************
 ### **Report designing**
@@ -215,67 +215,67 @@ Based on the mockup files received as requirement, the team will start designing
 
 In customer performance report highlights the net sales for individual customer for 2019 and 2020 and 2021, It allows for a year-over-year comparison to evaluate customer performance. The report also highlights the year-over-year percentage growth in net sales from 2020 to 2021.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Customer%20Performance%20Report.png" class="center">
 
 #### **Market Performance VS Target Report**
 
 The Market Performance Report provides a breakdown of net sales by market (country) for each individual year, allowing stakeholders to analyze how different countries have performed over time. This report includes 2021 sales targets and compares them against the actual net sales for 2021, highlighting the gap between target and performance.This report also displays the percentage variance from the target using conditional formatting, enabling quick identification of underperforming or outperforming markets.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Market%20Performance%20vs%20Target%20Report.png" class="center">
 
 #### **P & L by Fiscal Years Report**
 
 The Profit & Loss (P & L) by Fiscal Years Report summarizes key financial metrics — including Net Sales, COGS (Cost of Goods Sold), Gross Margin, and Gross Margin Percentage — across the fiscal years 2019, 2020, and 2021. In addition, this report also shows a comparison column (21 vs 20), which highlights the percentage change from 2020 to 2021 for each metric. This provides a quick view of year-over-year performance improvements or declines. Interactive filters for customer, market, division, and region allow users to slice the data and view financial performance from multiple perspectives.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/P%26L%20Statement%20by%20Fiscal%20Year.png" class="center">
 
 #### **P & L by Fiscal Months Report**
 
 The Profit & Loss (P & L) by Fiscal Months Report presents monthly financial performance data across the fiscal years 2019, 2020, and 2021. The report breaks down key metrics such as Net Sales, COGS (Cost of Goods Sold), Gross Margin, Gross Margin % , These metrics are displayed month-by-month and grouped into fiscal quarters (Q1–Q4), helping users analyze seasonal patterns and monthly business performance. The bottom section of the report includes Net Sales comparison metrics, specifically 2021 vs 2020 growth %, 2020 vs 2019 growth % , these comparisons highlight the year-over-year growth at the monthly level.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/P%26L%20Statement%20by%20Months.png" class="center">
 
 #### **P & L Year (Markets) Report** 
 
 This report provides a year-wise financial summary for each market (country), including key metrics such as Net Sales, COGS (Cost of Goods Sold), Gross Margin, and Gross Margin %.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/P%26L%20Statement%20by%20Markets.png" class="center">
 
 #### **Product Based Report**
 
 This report highlights the top 10 products based on the percentage increase in their net sales from 2020 to 2021. It provides a clear comparison of product-level performance and growth trends over the year.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Product%20Based%20Report.png" class="center">
 
 #### **Division Level Report** 
 
 This report presents the net sales data for each division for the years 2020 and 2021, along with the growth percentage, helping to evaluate performance across divisions.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Division%20Level%20Report.png" class="center">
 
 #### **Top and bottom products - QTY Report** 
 
 This report highlights the top 5 and bottom 5 products based on the quantity sold, helping identify best-selling and underperforming products.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Top%20and%20bottom%20products%20-%20QTY%20Report.png" class="center">
 
 #### **New products - 2021 Report** 
 
 This report showcases the newly launched products by Atliq in 2021, along with their respective net sales performance.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/New%20Products%20-%202021%20Report.png" class="center">
 
 #### **Top 5 countries Report** 
 
 This report highlights the top 5 countries based on their net sales performance in 2021, helping identify the most revenue-generating markets.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Top%205%20countries%20Report.png" class="center">
 
 #### **GM% (sub_zone) Report** 
 
 This report tracks the Gross Margin Percentage (GM%) for each sub-zone, broken down by fiscal quarters (Q1–Q4) across the years 2019, 2020, and 2021.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/GM%20%25%20by%20Subzone%20Report.png" class="center">
 
 ### **Overall Report**
 
