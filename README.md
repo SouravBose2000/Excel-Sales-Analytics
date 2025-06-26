@@ -190,7 +190,7 @@ Before jumping into building the final reports, it’s important to follow a str
 
 - **Role of reports:** Align financial planning with strategic goals Instill confidence in the organization's financial outlook.
 
-There are other reports like **Product Based Report**, **Division Level Report**, **Top and bottom products - QTY Report**, **New products - 2021 Report**, **Top 5 countries Report** and **GM% (sub_zone) Report**.
+There are other reports like _[Product Based Report](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/Product%20Based%20Report.pdf)_, _[Division Level Report](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/Division%20Level%20Report.pdf)_, _[Top and bottom products - QTY Report](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/Top%20and%20bottom%20products%20-%20QTY%20Report.pdf)_, _[New products - 2021 Report](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/New%20Products%20-%202021%20Report.pdf)_, _[Top 5 countries Report](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/Top%205%20countries%20Report.pdf)_ and _[GM% (sub_zone) Report](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Project/PDF/GM%20%25%20by%20Subzone%20Report.pdf)_.
         
 To prepare for these, we followed these steps:
 - **ETL Process – Extract, Transform, Load :**
