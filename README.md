@@ -10,7 +10,7 @@ I worked on this project by following the Codebasics Excel Course, Link to the c
 
 you can find the full report file here :
     
-- 📄 [View Report (PDF)](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Report/360.pbix)
+- 📄 [View Report (PDF)]([https://github.com/Naveen-S6/Business_Insights_360/blob/main/Report/360.pbix](https://github.com/SouravBose2000/Excel-Sales-Analytics/tree/main/Project/PDF))
 
 - 📊 [View Report (Excel)](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Report/360.pbix)
 
