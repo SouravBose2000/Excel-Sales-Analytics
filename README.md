@@ -279,7 +279,7 @@ This report tracks the Gross Margin Percentage (GM%) for each sub-zone, broken d
 
 ### **Overall Report**
 
-![Overall Report.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Overall.gif)
+![Overall Report.gif](https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Overall.gif)
 
 *******************
 ### **Project Outcome**
