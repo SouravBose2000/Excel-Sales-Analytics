@@ -21,7 +21,7 @@ you can find the full report file here :
 - [Project Overview](#project-overview)
 - [Technical & Soft Skills](#technical--soft-skills)
 - [Business Related Terms Learned](#business-related-terms-learned)
-- [Company’s Background](#companys-background)
+- [Company Background](#company-background)
 - [Dataset Understanding](#dataset-understanding)
 - [Planning Before Report Building](#planning-before-report-building)
 - [Report Designing](#report-designing)
@@ -77,7 +77,7 @@ you can find the full report file here :
 - Distributor
 
 *******************
-### **Company’s back ground**
+### **Company Background**
 
 AltiQ hardware is a company which has grown vastly in the recent years, and opened business all over the globe. It is a company which sells, computer and computer accessories through three mediums/channel.
 
