@@ -8,11 +8,26 @@ AtliQ Hardware is growing rapidly in the recent years, and they have decided to 
 
 I worked on this project by following the Codebasics Excel Course, Link to the course is [here](https://codebasics.io/courses/excel-mother-of-business-intelligence).
 
+I extend my heartfelt gratitude to [Codebasics](https://codebasics.io/), [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) sir, and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) sir for offering such an invaluable Resume Project that has greatly enriched my portfolio.
+
 you can find the full report file here :
     
 - 📄 [View Report (PDF)](https://github.com/SouravBose2000/Excel-Sales-Analytics/tree/main/Project/PDF)
 
 - 📊 [View Report (Excel)](https://github.com/SouravBose2000/Excel-Sales-Analytics/tree/main/Project/Excel)
+
+*******************
+## Table of Content
+- [Project Overview](#project-overview)
+- [Technical & Soft Skills](#technical--soft-skills)
+- [Business Related Terms Learned](#business-related-terms-learned)
+- [Company’s Background](#companys-background)
+- [Dataset Understanding](#dataset-understanding)
+- [Planning Before Report Building](#planning-before-report-building)
+- [Report Designing](#report-designing)
+- [Project Outcome](#project-outcome)
+- [Team](#team)
+- [Credits](#credits)
 
 *******************
 ### **Technical & Soft Skills:**
@@ -39,12 +54,6 @@ you can find the full report file here :
 - Designing user-centric reports with empathy in mind.
 - Optimization of report generation through meticulous fine-tuning.
 - Developing a systematic approach to devising a report building plan.
-
-*******************
-### **GitHub** 
-
-- Uploading Large size files using GitHub LFS
-- Tracking the particular type of file extensions for LFS
 
 *******************
 ### **Business Related Terms Learned**
@@ -159,7 +168,7 @@ AltiQ hardware required some reports on sales analytics and finance analytics, s
 *******************
 ### **Planning Before Report Building**
 
-Before jumping into building the final reports, it’s important to follow a structured, step-by-step approach. This ensures clarity, reusability, and a scalable reporting structure. In this project, we planned to build reports for Sales analytics and finance analytics.
+Before jumping into building the final reports, it’s important to follow a structured, step-by-step approach. This ensures clarity, reusability, and a scalable reporting structure. In this project, reports for Sales analytics and Finance analytics were planned to be built.
 
 #### **Sales Report :**
 
@@ -194,32 +203,32 @@ There are other reports like _[Product Based Report](https://github.com/SouravBo
         
 To prepare for these, we followed these steps:
 - **ETL Process – Extract, Transform, Load :**
-The Atliq business team provided the analytics team with requirement files containing raw sales data in .csv format. These files include monthly transactional data from Atliq Hardware’s sales operations.We first imported the CSV files into Excel, which is known as the **Extract** step — this brings the raw data into our environment for further processing. Next, we used Power Query to clean, filter, rename columns, remove nulls, and apply business logic as needed — this is the **Transform** step, where we shape the data into a usable form. Finally, the transformed data was loaded back into Excel across structured sheets, ready for modeling and analysis in Power Pivot — this is the **Load** step.
+The Atliq business team provided the analytics team with requirement files containing raw sales data in .csv format. These files include monthly transactional data from Atliq Hardware’s sales operations. The CSV files were first imported into Excel, which is known as the **Extract** step — this brings the raw data into our environment for further processing. Next, Power Query was used to clean, filter, rename columns, remove nulls, and apply business logic as needed — this is the **Transform** step, where the data is shaped into a usable form. Finally, the transformed data was loaded back into Excel across structured sheets, ready for modeling and analysis in Power Pivot — this is the **Load** step.
 - **Identify Report Components**
-        - We first listed all the required components (fields/measures) needed for both reports. This helped us map which fields come from which table (e.g., sales data from the fact table, customer details from the dimension table).
+        - All the required components (fields/measures) needed for both reports were first listed. This helped map which fields come from which table (e.g., sales data from the fact table, customer details from the dimension table).
 - **Create dim_date Table**
-        - The dataset didn’t include a dedicated date dimension, so we created a dim_date table using Power Query. This date table allows for advanced time intelligence functions such as Year-to-Date (YTD), Month-over-Month (MoM), and more.
+        - The dataset didn’t include a dedicated date dimension, so a dim_date table was created using Power Query. This date table allows for advanced time intelligence functions such as Quarter, Fiscal Year and more.
 - **Build the Data Model**
         - Data modeling plays a vital role and is considered as the basement of report.
         - Poor data modeling affects the over all performance of the report.
-        - In this project, we have followed Snowfall data modeling method.
+        - In this project, Star schema data modeling method is followed.
 
 <img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Data_Model.png" class="center">
 
 *******************
 ### **Report designing**
 
-Based on the mockup files received as requirement, the team will start designing the report and create measure as and when required
+Based on the mockup files received as requirement, the team will start designing the report and create measure as and when required.
 
 #### **Customer Performance Report**
 
-In customer performance report highlights the net sales for individual customer for 2019 and 2020 and 2021, It allows for a year-over-year comparison to evaluate customer performance. The report also highlights the year-over-year percentage growth in net sales from 2020 to 2021.
+In customer performance report highlights the net sales for individual customer for fiscal years 2019, 2020, and 2021. It allows for a year-over-year comparison to evaluate customer performance. The report also highlights the year-over-year percentage growth in net sales from fiscal year 2020 to 2021.
 
 <img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Customer%20Performance%20Report.png" class="center">
 
 #### **Market Performance VS Target Report**
 
-The Market Performance Report provides a breakdown of net sales by market (country) for each individual year, allowing stakeholders to analyze how different countries have performed over time. This report includes 2021 sales targets and compares them against the actual net sales for 2021, highlighting the gap between target and performance.This report also displays the percentage variance from the target using conditional formatting, enabling quick identification of underperforming or outperforming markets.
+The Market Performance Report provides a breakdown of net sales by market (country) for each individual fiscal year, allowing stakeholders to analyze how different countries have performed over time. This report includes sales targets for fiscal year 2021 and compares them against the actual net sales for fiscal year 2021, highlighting the gap between target and performance.This report also displays the percentage variance from the target using conditional formatting, enabling quick identification of underperforming or outperforming markets.
 
 <img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Market%20Performance%20vs%20Target%20Report.png" class="center">
 
@@ -243,13 +252,13 @@ This report provides a year-wise financial summary for each market (country), in
 
 #### **Product Based Report**
 
-This report highlights the top 10 products based on the percentage increase in their net sales from 2020 to 2021. It provides a clear comparison of product-level performance and growth trends over the year.
+This report highlights the top 10 products based on the percentage increase in their net sales from fiscal year 2020 to 2021. It provides a clear comparison of product-level performance and growth trends over the year.
 
 <img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Product%20Based%20Report.png" class="center">
 
 #### **Division Level Report** 
 
-This report presents the net sales data for each division for the years 2020 and 2021, along with the growth percentage, helping to evaluate performance across divisions.
+This report presents the net sales data for each division for the fiscal years 2020 and 2021, along with the growth percentage, helping to evaluate performance across divisions.
 
 <img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Division%20Level%20Report.png" class="center">
 
@@ -261,19 +270,19 @@ This report highlights the top 5 and bottom 5 products based on the quantity sol
 
 #### **New products - 2021 Report** 
 
-This report showcases the newly launched products by Atliq in 2021, along with their respective net sales performance.
+This report showcases the newly launched products by Atliq in fiscal year 2021, along with their respective net sales performance.
 
 <img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/New%20Products%20-%202021%20Report.png" class="center">
 
 #### **Top 5 countries Report** 
 
-This report highlights the top 5 countries based on their net sales performance in 2021, helping identify the most revenue-generating markets.
+This report highlights the top 5 countries based on their net sales performance in fiscal year 2021, helping identify the most revenue-generating markets.
 
 <img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/Top%205%20countries%20Report.png" class="center">
 
 #### **GM% (sub_zone) Report** 
 
-This report tracks the Gross Margin Percentage (GM%) for each sub-zone, broken down by fiscal quarters (Q1–Q4) across the years 2019, 2020, and 2021.
+This report tracks the Gross Margin Percentage (GM%) for each sub-zone, broken down by fiscal quarters (Q1–Q4) across the fiscal years 2019, 2020, and 2021.
 
 <img src="https://github.com/SouravBose2000/Excel-Sales-Analytics/blob/main/Resources/GM%20%25%20by%20Subzone%20Report.png" class="center">
 
@@ -297,12 +306,23 @@ By using this sales analytics report — specifically the **Customer Performance
 
 By using this Finance Analytics Report — specifically the **P & L by Fiscal Years Report**, **P & L by Fiscal Months Report** and **P & L Year (Markets) Report** — it will help in answering key business questions such as:
 - How is the company performing financially at a monthly and yearly level?
-- What is the gross profit margin, and how has it changed over time?
+- How has the gross margin changed over time?
 - Are we meeting our P&L targets set by the Finance department?
 - How much are we spending on cost of goods sold (COGS), and is it under control?
 - Is the business generating enough profit to support expansion or new investments?
 - How does our performance compare with our strategic financial vision?
-- Are the regional finance teams aligned with central finance in terms of financial reporting and decisions?
 - Can we use this report during business reviews and executive meetings to back up decisions with data?
 
 Furthermore, these reports will help in answering numerous 'why' questions based on different business situations and decisions can be taken based on the data.
+
+### **Team**
+
+| 👤 Name        | 🔗 Profile                                  |
+|----------------|---------------------------------------------|
+| **Sourav Bose** | [LinkedIn](https://www.linkedin.com/in/souravbose2000) |
+
+
+### **Credits**
+
+This project would not have been possible without the [Codebasics Excel Course](https://codebasics.io/courses/excel-mother-of-business-intelligence).  
+A huge shout-out to [Codebasics](https://codebasics.io/), [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) sir, and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) sir for offering such an invaluable Resume Project, which has significantly enriched my portfolio.
